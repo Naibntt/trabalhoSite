@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilo.css"/>
+    
+    <title>PortifólioPessoal(CV Online)</title>
+
+</head>
+
+<body>
+    <!-- Aqui ficam todos os conteudos que serão mostrados para o usuário -->
+
+    <h1>Portifólio Pessoal(CV Online)</h1>
+    <hr>
+    
+    <div id="menu-superior">    <!--Aqui fica o código do menu superior com os acessos aos links para outras páginas do site-->
+        <ul>                    <!--Isto vai ser igual para todas as páginas-->
+            <a href="index.html">Início</a>
+            <a href="sobre.html">Sobre mim</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portifolio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </ul>
+    </div>
+    
+    <hr>
+    <br>
+
+    <h3>Contato</h3>
+    <p>Se você tiver interesse, entre em contato pelo formulário abaixo:</p>
+
+    
+<!--Preciso fazer um destino para o email ser enviado.Mas sei que existem uma série de confiurações extras que devem ser realizadas(configuração de servidor web, configuração de serviço de email, processamento do formulário e assim por diante). Pois o a parte visual do sistema funciona, mas nao envia para nenhum local ainda.-->
+
+
+    <form action="" method="">  <!-- Formulário para contato: seguindo exemplo dado na aula -->
+        <table>                 <!-- Este formulário não vai funcionar-->
+            <tr>
+                <th><label for= "nome">Nome:</label></th>
+                <td><input type="text" name="nome" id="nome"></td>
+            </tr>
+            <tr>
+                <th><label for= "email">E-mail:</label></th>
+                <td><input type="email" name="email" id="email"></td>            
+            </tr>
+            <tr>
+                <th><label for= "msg">Digite sua mensagem:</label></th>
+                <td><textarea name="msg" rows="5" cols="40">Digite sua mensagem:</textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <button>Enviar</button></td>
+            </tr>  
+        </table>
+    </form>
+
+    <p>
+        Caso não apareça nada que confirme que seu email foi enviado, envie sua mensagem para elioenaibntt@gmail.com 
+    </p>
+        
+    <hr>
+    
+    <p>Desenvolvido por: Elioenai Babetzki Bonette</p>
+
+
+
+</body>
+
+</html>
